@@ -1,4 +1,4 @@
-🐦 Twitter API Experiment 🚀
+Twitter API Experiment 🚀
 Exploring Tweepy & Twitter API | Faced API Restrictions
 
 "Not every experiment succeeds, but every experiment teaches something." – 📚
@@ -18,14 +18,15 @@ I attempted to interact with Twitter's API using Tweepy, but I faced 403 Forbidd
 Error: "You currently have access to a subset of X API V2 endpoints and limited v1.1 endpoints (e.g., media post, oauth) only."
 
 🔍 Why?
-Twitter now restricts most API access under the free plan.
 
+Twitter now restricts most API access under the free plan.
 The home timeline API (fetching tweets) and posting tweets require a Basic API Access Plan ($100/month).
 
-🐍 TweepError Attribute Error
+TweepError Attribute Error
 Error: "AttributeError: module 'tweepy' has no attribute 'TweepError'"
 
 🔍 Why?
+
 TweepError was deprecated in newer versions of Tweepy (use tweepy.errors.TweepyException instead).
 
 ✅ What Worked
@@ -52,7 +53,7 @@ python twittyapi.py
 Even though this experiment didn't go as planned, learning from failures is just as important as succeeding! 🧠🔥
 If you have any workarounds or suggestions, feel free to contribute! 😊
 
-✨ "Failure is simply the opportunity to begin again, this time more intelligently." – Henry Ford 🚀
+
 
 
 
