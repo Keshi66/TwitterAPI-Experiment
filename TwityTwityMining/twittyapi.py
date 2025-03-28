@@ -3,10 +3,10 @@ from tweepy import OAuthHandler
 
 print("Starting script...")  # Debugging print
 
-consumer_key = 'cfyxWxMy7LeHR5C7R0nyZ07gB'
-consumer_secret = 'F1L2qdbyXmDjpJcsVCeoV23PqzXRn5RvAJ4EExTcURsl9OiwWJ'
-access_token = '1905270563700129792-qqSi89rfQnuMuZJ3Yu2jvEKfQIXmmy'
-access_secret = 'jo1qnOcZI32yjOFqchNZpRiECoQlAN6QPPpJdqdDqfxxv'
+consumer_key = 'your api key'
+consumer_secret = 'your api secret key'
+access_token = 'your access token'
+access_secret = 'your access secret token'
 
 try:
     # 🔹 Authenticate
